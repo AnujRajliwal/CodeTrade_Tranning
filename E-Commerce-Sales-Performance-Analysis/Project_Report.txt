@@ -1,0 +1,96 @@
+E-Commerce Sales Performance Analysis Report
+Objective
+
+The objective of this project was to perform a complete Exploratory Data Analysis (EDA) on the Brazilian E-Commerce Public Dataset by Olist. The analysis aimed to identify sales patterns, customer behavior, product performance, seller contribution, payment trends, and regional performance to support data-driven business decision-making.
+
+Dataset Description
+
+The dataset consists of multiple related tables containing information about:
+
+Customers
+Orders
+Order Items
+Products
+Sellers
+Payments
+Reviews
+Geographic Information
+
+The analysis required merging multiple datasets to create a complete business view of customer transactions and sales performance.
+
+Data Cleaning Summary
+
+Several data quality checks were performed before analysis:
+
+Checked missing values across all datasets
+Identified duplicate records
+Converted date columns to datetime format
+Validated table relationships using merge checks
+Performed integrity testing on merged datasets
+Verified successful joins between customers, orders, products, and sellers
+
+These steps ensured that the analysis was based on accurate and reliable data.
+
+Analysis Findings
+Product Performance
+
+A small number of product categories generated a significant share of total revenue, indicating strong concentration among top-performing categories.
+
+Regional Performance
+
+Sales were concentrated in specific states, suggesting that certain geographic markets contribute more heavily to overall business success.
+
+Customer Analysis
+
+Customer segmentation revealed that VIP customers generated significantly higher revenue than regular customers. Most customers were identified as one-time buyers.
+
+Payment Analysis
+
+Credit cards were the most commonly used payment method and contributed the highest share of transaction value.
+
+Seller Analysis
+
+A limited number of sellers accounted for a substantial portion of total marketplace revenue.
+
+Customer Satisfaction
+
+Review analysis showed generally positive customer feedback, although some categories received lower ratings and may require further investigation.
+
+Sales Trends
+
+Time-series analysis revealed fluctuations in sales volume across different periods, indicating potential seasonal purchasing behavior.
+
+Visualizations Used
+
+The project included multiple visualizations such as:
+
+Revenue by Product Category
+Sales by State
+Customer Segment Analysis
+Payment Method Comparison
+Seller Revenue Rankings
+Review Score Distribution
+Monthly Revenue Trends
+Seasonal Sales Analysis
+
+These charts helped identify business trends and communicate findings effectively.
+
+Final Conclusion
+
+The analysis demonstrated that business performance is driven primarily by a small group of high-performing product categories, regions, customers, and sellers.
+
+Key recommendations include:
+
+Invest more resources in top-performing product categories
+Strengthen customer retention initiatives
+Expand marketing efforts in high-performing regions
+Support high-value sellers through targeted programs
+Improve low-rated product categories
+Use seasonal trends to optimize inventory and promotional planning
+
+Overall, the project successfully transformed raw transactional data into actionable business insights that can support strategic decision-making.
+
+Prepared By
+
+Anuj Rajliwal
+Data Analytics Project – Phase 1 Mini Project
